@@ -53,7 +53,7 @@ const myQuestions = [
     correctAnswer: "B"
   },
       {
-    question: "What video game was so legendarily bad that hundreds of new copies were allegedly buried in a garbage dump rather than sold?",
+    question: "What video game was so bad that hundreds of new copies were buried in a garbage dump?",
     answers: {
       A: "Pac-Man",
       B: "Pitfall!",
@@ -159,7 +159,7 @@ function showPreviousSlide() {
     if(userAnswer=== currentQuestion.correctAnswer)
     {
       numberCorrect++;
-
+   answerContainers[questionNumber].style.color= 'lightgreen';
     }
     
                     
